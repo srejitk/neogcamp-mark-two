@@ -23,12 +23,16 @@ console.log("Current Score :"+scoreboard +"\n");
 
 var highscore = [{
   name: "Me",
-  score: 4,
+  score: 5,
 }];
 
 function letsplay(){
 
-var questions = [{
+var questions = [    {
+    question: chalk.bold.cyan(("Who's my favourite hero?") + chalk.bold.blue("\nA.Kevin Fiege \nB.Arishem the Judge \nC.Eson the Searcher \nD.Mephisto\n")),
+    answer: "A"
+  },
+                 {
   question : chalk.bold.cyan(("Who is the oldest Avenger?")+chalk.bold.blue("\nA.Captain America \nB.Captain Marvel \nC.Winter Soldier \nD.Thor\n")),
   answer : "D"
 },
